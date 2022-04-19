@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Título de la Página</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+  <nav class="navbar" id="navigation-bar">
+    <a href="#">
+      <img src="./tvlogo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+      <h1 id="h1-title">TV Series</h1>
+    </a>
+  </nav>
+  <div class="container-fluid container-movies">
+    <div class="row">
+      <div class="col-4 offset-3">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Name</th>
+              <th scope="col">Channel</th>
+              <th scope="col">Season</th>
+            </tr>
+          </thead>
+          <tbody id="table-body">
+          </tbody>
+        </table>
+        <div class="col-6" id="average-season">
+        </div>
+      </div>
+      <div class="col-2" id="card">
+      </div>
+    </div>
+  </div>
+  <script type="module" src="main.js"></script>
+</body>
+
+</html>
